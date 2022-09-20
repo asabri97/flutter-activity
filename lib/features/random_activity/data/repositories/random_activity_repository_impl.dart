@@ -49,7 +49,7 @@ class RandomActivityRepositoryImpl implements RandomActivityRepository {
 
         localDataSource.cacheRandomActivity(remoteActivity);
 
-        return Right(await remoteDataSource.getRandomActivity()); // returns right side of the function in this case: Random Activity
+        return Right(remoteActivity); // returns right side of the function in this case: Random Activity
 
       } on ServerException {
 
