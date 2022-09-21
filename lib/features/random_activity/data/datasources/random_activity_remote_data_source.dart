@@ -36,11 +36,7 @@ class RandomActivityRemoteDataSourceImpl
 
       'https://www.boredapi.com/api/activity',
 
-      queryParameters: {
 
-        'api_key': 'if you need',
-
-      },
 
     );
 
